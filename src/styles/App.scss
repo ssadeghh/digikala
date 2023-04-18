@@ -1,0 +1,30 @@
+// @font-face {
+//     font-family: myFirstFont;
+//     src: url(../fonts/IRANSansX-Regular.woff) format('woff');
+// }
+
+body{
+    // font-family: 'myFirstFont', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    
+    .top-header-banner {
+        object-fit: cover;
+        display: inline-block;
+        width: 100%;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
