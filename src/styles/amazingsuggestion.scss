@@ -1,0 +1,164 @@
+.amazing-suggestion {
+    margin: 0 96px;
+
+    .top-container {
+        margin-top: 24px;
+        padding: 8px 12px;
+
+        display: flex;
+        justify-content: space-around;
+
+        .flash {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                margin: 4px 0 0 0;
+                height: 23px;
+                font-size: 11px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            img {
+                width: 52px;
+            }
+
+            .more {
+                background-color: #F1F2F4;
+                opacity: 0.5;
+                border-radius: 100%;
+                width: 21px;
+                height: 21px;
+                padding: 15px;
+            }
+        }
+    }
+
+    .suggest {
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: #ef4056;
+        background-origin: padding-box;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto;
+        border-radius: 16px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 24px;
+        overflow-y: hidden;
+        padding: 20px 2px;
+        position: relative;
+        width: 1304px;
+
+        .next-prev-icons {
+            .backicon {
+                position: absolute;
+                top: 40%;
+                left: 15px;
+                width: 14px;
+                background-color: white;
+                padding: 12px;
+                border-radius: 100%;
+                cursor: pointer;
+                transition: opacity 0.2s ease-in-out;
+                opacity: 0;
+                z-index: 10;
+                border: 1px solid rgb(224, 224, 230);
+            }
+
+            .nexticon {
+                position: absolute;
+                top: 40%;
+                right: 15%;
+                width: 14px;
+                background-color: white;
+                padding: 12px;
+                border-radius: 100%;
+                transform: scaleX(-1);
+                cursor: pointer;
+                transition: opacity 0.2s ease-in-out;
+                opacity: 0;
+                border: 1px solid rgb(224, 224, 230);
+                z-index: 10;
+
+            }
+        }
+
+        &:hover {
+            .backicon {
+                opacity: 1;
+            }
+
+            .nexticon {
+                opacity: 1;
+            }
+        }
+
+
+        .first-card-suggest {
+            box-sizing: border-box;
+            direction: rtl;
+            display: block;
+            flex-shrink: 0;
+            height: 246.438px;
+            list-style-image: none;
+            list-style-position: outside;
+            margin-left: 2px;
+            position: relative;
+            width: 173px;
+
+            .inside-first-card-suggest {
+                align-items: center;
+                box-sizing: border-box;
+                direction: rtl;
+                flex-direction: column;
+                justify-content: center;
+                list-style-position: outside;
+                display: flex;
+
+                .amazing-icon {
+                    aspect-ratio: auto 92/77;
+                    box-sizing: border-box;
+                    display: inline-block;
+                    height: 77px;
+                    object-fit: contain;
+                    opacity: 1;
+                    position: relative;
+                    width: 92px;
+                }
+
+                .box {
+                    aspect-ratio: auto 145/115;
+                    box-sizing: border-box;
+                    display: inline-block;
+                    height: 115px;
+                    list-style-type: none;
+                    list-style-position: outside;
+                    object-fit: contain;
+                    position: relative;
+                }
+
+                .text {
+                    align-items: center;
+                    box-sizing: border-box;
+                    color: rgb(255, 255, 255);
+                    display: flex;
+                    font-size: 14px;
+                    font-weight: 700;
+                    height: 30.1px;
+                    justify-content: center;
+                    line-height: 30.1px;
+                    list-style-position: outside;
+                    margin-top: 4px;
+                    outline-color: #FFF;
+                    text-decoration-thickness: auto;
+                }
+            }
+        }
+    }
+}

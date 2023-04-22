@@ -1,48 +1,62 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useRef } from 'react'
+import { Carousel } from 'antd'
+import '../styles/slider.scss'
 import Slider1 from '../images/slider-1.png'
 import Slider2 from '../images/slider-2.png'
 import Slider3 from '../images/slider-3.png'
-import '../styles/slider.scss'
+import Slider4 from '../images/slider-4.png'
+import Slider5 from '../images/slider-5.png'
+import Slider6 from '../images/slider-6.png'
+import Slider7 from '../images/slider-7.png'
+import BackIcon from '../images/backIcon.png'
 
 export default function Slider() {
-    const [slideIndex, setSlideIndex] = useState(0)
-
-    const slides = [
-        { image: `${Slider1}`, caption: 'Slide 1' },
-        { image: `${Slider2}`, caption: 'Slide 2' },
-        { image: `${Slider3}`, caption: 'Slide 3' },
-    ]
-
-    function showSlide(index) {
-        setSlideIndex(index)
-    }
-
-    function nextSlide() {
-        if (slideIndex < slides.length - 1) {
-            setSlideIndex(slideIndex + 1)
-        } else {
-            setSlideIndex(0)
-        }
-    }
-
-    setInterval(nextSlide, 5000)
+    const carouselRef = useRef(null)
 
     return (
-        <div className="slider-container">
-            <div
-                className="slider"
-                style={{ transform: `translateX(-${slideIndex * 100}%)` }}
+        <div className="slider">
+            <Carousel
+                autoplay
+                autoplaySpeed={5000}
+                dotPosition="bottom"
+                className="slideshow"
+                ref={carouselRef}
             >
-                {slides.map((slide, index) => (
-                    <div
-                        className="slide"
-                        key={index}
-                        style={{ backgroundImage: `url(${slide.image})` }}
-                    >
-                        <div className="caption">{slide.caption}</div>
-                    </div>
-                ))}
+                <div>
+                    <img src={Slider1} alt="" />
+                </div>
+                <div>
+                    <img src={Slider2} alt="" />
+                </div>
+                <div>
+                    <img src={Slider3} alt="" />
+                </div>
+                <div>
+                    <img src={Slider4} alt="" />
+                </div>
+                <div>
+                    <img src={Slider5} alt="" />
+                </div>
+                <div>
+                    <img src={Slider6} alt="" />
+                </div>
+                <div>
+                    <img src={Slider7} alt="" />
+                </div>
+            </Carousel>
+            <div className="next-prev-icons">
+                <img
+                    src={BackIcon}
+                    alt=""
+                    className="backicon"
+                    onClick={() => carouselRef.current.prev()}
+                />
+                <img
+                    src={BackIcon}
+                    alt=""
+                    className="nexticon"
+                    onClick={() => carouselRef.current.next()}
+                />
             </div>
         </div>
     )

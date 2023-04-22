@@ -1,20 +1,79 @@
-.slider-container {
-    width: 100%;
-    overflow: hidden;
-}
-
 .slider {
-    width: 300%;
-    /* 3 slides, each with width of 100% */
-    white-space: nowrap;
-    transition: transform 0.5s ease-in-out;
-}
+    position: relative;
 
-.slide {
-    display: inline-block;
-    width: 100%;
-    height: 500px;
-    /* adjust to your desired height */
-    background-size: cover;
-    background-position: center;
+    .slideshow {
+        height: 50vh;
+        background: #364d79;
+        overflow: hidden;
+
+        div {
+            width: 100%;
+            height: 100%;
+
+            img {
+                position: absolute;
+                width: 1550px;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .next-prev-icons {
+        .backicon {
+            position: absolute;
+            bottom: 40px;
+            right: 75px;
+            width: 14px;
+            background-color: white;
+            padding: 12px;
+            border-radius: 100%;
+            cursor: pointer;
+            transition: opacity 0.2s ease-in-out;
+            opacity: 0;
+
+        }
+
+        .nexticon {
+            position: absolute;
+            bottom: 40px;
+            right: 30px;
+            width: 14px;
+            background-color: white;
+            padding: 12px;
+            border-radius: 100%;
+            transform: scaleX(-1);
+            cursor: pointer;
+            transition: opacity 0.2s ease-in-out;
+            opacity: 0;
+        }
+    }
+
+    &:hover {
+        .backicon {
+            opacity: 1;
+        }
+
+        .nexticon {
+            opacity: 1;
+        }
+    }
+
+    .ant-carousel {
+        .slick-dots {
+            li {
+                width: 4px;
+                height: 4px;
+                margin: auto 4px;
+                border-radius: 50%;
+            }
+            .slick-active{
+                border-radius: 100%;
+                transform: translateY(1px);
+                width: 16px;
+                height: 6px;
+                background-color: #fff;
+            }
+        }
+    }
 }
