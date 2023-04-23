@@ -2,51 +2,93 @@
     "suggestion_product":[
         {
             "id": "1",
-            "image": "1.png"
+            "image": "1.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "2",
-            "image": "2.png"
+            "image": "2.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "3",
-            "image": "3.png"
+            "image": "3.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "4",
-            "image": "4.png"
+            "image": "4.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "5",
-            "image": "5.png"
+            "image": "5.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "6",
-            "image": "6.png"
+            "image": "6.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "7",
-            "image": "7.png"
+            "image": "7.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "8",
-            "image": "8.png"
+            "image": "8.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "9",
-            "image": "9.png"
+            "image": "9.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "10",
-            "image": "10.png"
+            "image": "10.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "11",
-            "image": "11.png"
+            "image": "11.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
         },
         {
             "id": "12",
-            "image": "12.png"
+            "image": "12.png",
+            "price":"۷,۸۳۱,۸۹۰",
+            "beforeDiscount": "۹,۲۳۴,۳۸۰",
+            "discount": "15%"
+        },
+        {
+            "id": "13",
+            "image": "backIconProducts.png",
+            "more":"مشاهده همه",
+            "className":"final"
         }
     ]
 }

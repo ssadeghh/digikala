@@ -7,7 +7,6 @@ body{
     // font-family: 'myFirstFont', sans-serif;
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
 }
 
 main {
@@ -27,5 +26,5 @@ main {
 
 .container {
     margin: 0 auto;
-    min-width: 10000px;
+    min-height: 100px;
 }

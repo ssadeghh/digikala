@@ -59,10 +59,6 @@ export default function AmazingSuggestion() {
                     </div>
                 </div>
                 <Card />
-                <div className="next-prev-icons">
-                    <img src={BackIcon} alt="" className="backicon" />
-                    <img src={BackIcon} alt="" className="nexticon" />
-                </div>
             </div>
         </div>
     )

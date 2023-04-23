@@ -55,51 +55,6 @@
         position: relative;
         width: 1304px;
 
-        .next-prev-icons {
-            .backicon {
-                position: absolute;
-                top: 40%;
-                left: 15px;
-                width: 14px;
-                background-color: white;
-                padding: 12px;
-                border-radius: 100%;
-                cursor: pointer;
-                transition: opacity 0.2s ease-in-out;
-                opacity: 0;
-                z-index: 10;
-                border: 1px solid rgb(224, 224, 230);
-            }
-
-            .nexticon {
-                position: absolute;
-                top: 40%;
-                right: 15%;
-                width: 14px;
-                background-color: white;
-                padding: 12px;
-                border-radius: 100%;
-                transform: scaleX(-1);
-                cursor: pointer;
-                transition: opacity 0.2s ease-in-out;
-                opacity: 0;
-                border: 1px solid rgb(224, 224, 230);
-                z-index: 10;
-
-            }
-        }
-
-        &:hover {
-            .backicon {
-                opacity: 1;
-            }
-
-            .nexticon {
-                opacity: 1;
-            }
-        }
-
-
         .first-card-suggest {
             box-sizing: border-box;
             direction: rtl;
@@ -113,6 +68,7 @@
             width: 173px;
 
             .inside-first-card-suggest {
+                cursor: pointer;
                 align-items: center;
                 box-sizing: border-box;
                 direction: rtl;
