@@ -25,6 +25,12 @@ main {
 }
 
 .container {
-    margin: 0 auto;
-    min-height: 100px;
+    box-sizing: border-box;
+    direction: rtl;
+    display: block;
+    height: 4965.35px;
+    font-size: 10px;
+    margin-left: 96px;
+    margin-right: 96px;
+    padding: 0 16px;
 }

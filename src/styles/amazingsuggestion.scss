@@ -1,5 +1,6 @@
 .amazing-suggestion {
     margin: 0 96px;
+    padding: 0 16px;
 
     .top-container {
         margin-top: 24px;
@@ -113,6 +114,304 @@
                     margin-top: 4px;
                     outline-color: #FFF;
                     text-decoration-thickness: auto;
+                }
+            }
+        }
+    }
+
+    .bottom-card-suggest {
+        box-sizing: border-box;
+        display: block;
+        margin-top: 8px;
+
+        a {
+            text-decoration: none;
+            align-items: center;
+            background-color: rgb(241, 242, 244);
+            border-radius: 16px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 8px;
+            max-height: 110px;
+            overflow: hidden;
+            width: 1224px;
+            padding: 16px 40px 12px 40px;
+            position: relative;
+
+            .first-div-in-a {
+                background-attachment: scroll;
+                background-clip: border-box;
+                background-color: rgba(0, 0, 0, 0);
+                background-image: url(https://www.digikala.com/statics/img/svg/typography/freshPattern.svg);
+                background-origin: padding-box;
+                background-repeat: no-repeat;
+                background-position-x: 0%;
+                background-position-y: 50%;
+                background-size: auto;
+                bottom: 0;
+                box-sizing: border-box;
+                display: block;
+                left: 0;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                user-select: none;
+                z-index: 1;
+            }
+
+            .second-div-in-a {
+                background-attachment: scroll;
+                background-clip: border-box;
+                background-color: rgba(0, 0, 0, 0);
+                background-image: linear-gradient(267.6deg, rgba(57, 174, 0, 0.1) to rgba(242, 242, 242, 0) 100%);
+                background-origin: padding-box;
+                background-position: 0%;
+                background-size: auto;
+                border-radius: 16px;
+                bottom: 0;
+                box-sizing: border-box;
+                display: block;
+                height: 110px;
+                opacity: 0.3;
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+            }
+
+            .third-div-in-a {
+                align-items: center;
+                box-sizing: border-box;
+                display: flex;
+                flex-shrink: 0;
+                height: 62px;
+                z-index: 1;
+
+                .title {
+                    box-sizing: border-box;
+                    display: block;
+                    height: 62px;
+                    width: 66px;
+
+                    img {
+                        aspect-ratio: auto 66/62;
+                        box-sizing: border-box;
+                        display: inline-block;
+                        height: 62px;
+                        object-fit: contain;
+                        opacity: 1;
+                        overflow: hidden;
+                        overflow-clip-margin: content-box;
+                        position: relative;
+                        width: 66px;
+                    }
+                }
+
+                .text-title{
+                    box-sizing: border-box;
+                    display: block;
+                    height: 28px;
+                    margin: 0 20px;
+                    width: 250px;
+
+                    img{
+                        aspect-ratio: auto 250/28;
+                        display: inline-block;
+                        height: 28px;
+                        object-fit: contain;
+                        overflow: hidden;
+                        overflow-clip-margin: content-box;
+                        position: relative;
+                        width: 250px;
+                    }
+                }
+                
+                .discount-title{
+                    align-items: center;
+                    background-color: rgb(57, 174, 0);
+                    border-radius: 9999px;
+                    border-image-repeat: stretch;
+                    border-image-slice: 100%;
+                    border-image-width: 1;
+                    border-width: 0.8px;
+                    border-color: rgba(0, 0, 0, 0);
+                    border-style: solid;
+                    display: flex;
+                    height: 28px;
+                    justify-content: center;
+                    line-height: 26.04px;
+                    padding: 0 12px;
+                    text-align: center;
+
+                    p{
+                        text-decoration: none;
+                        color: #FFF;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .fourth-div-in-a{
+                align-items: center;
+                box-sizing: border-box;
+                display: flex;
+                height: 74px;
+                justify-content: flex-start;
+                margin-right: 16px;
+                z-index: 1;
+                width: 633px;
+
+                .icon-insdie-fourth-div{
+                    align-items: center;
+                    display: flex;
+                    box-sizing: border-box;
+                    flex-wrap: wrap;
+                    justify-content: flex-end;
+                    height: 99px;
+                    padding: 0;
+                    width: 492px;
+                    overflow: hidden;
+
+                    a{
+                        align-items: center;
+                        background-color: #FFF;
+                        border-radius: 50%;
+                        box-sizing: border-box;
+                        font-size: 10px;
+                        display: flex;
+                        justify-content: center;
+                        margin-bottom: 16px;
+                        margin-left: 8px;
+                        padding: 8px;
+                        position: relative;
+                        width: 74px;
+
+                        .overflow-h{
+                            border-radius: 50%;
+                            box-sizing: border-box;
+                            display: block;
+                            padding: 0;
+                            height: 58px;
+                            overflow: hidden;
+                            width: 58px;
+
+                            .title-customize{
+                                box-sizing: border-box;
+                                display: block;
+                                height: 58px;
+                                width: 58px;
+
+                                picture{
+                                    box-sizing: border-box;
+                                    display: inline;
+                                    height: auto;
+                                    margin: 0;
+                                    padding: 0;
+                                    width: auto;
+
+                                    img{
+                                        aspect-ratio: auto 58/58;
+                                        box-sizing: border-box;
+                                        display: inline-block;
+                                        height: 58px;
+                                        object-fit: contain;
+                                        margin: 0;
+                                        overflow: hidden;
+                                        padding: 0;
+                                        position: relative;
+                                        width: 58px;
+
+                                        &::after{
+                                            background-attachment: scroll;
+                                            background-clip: border-box;
+                                            background-color: #FFF;
+                                            background-origin: padding-box;
+                                            background-position-x: 50%;
+                                            background-position-y: 50%;
+                                            background-size: contain;
+                                            bottom: 0;
+                                            display: block;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .discount-price{
+                            align-items: center;
+                            background-color:rgb(239, 57, 78);
+                            border-radius: 16px;
+                            bottom: 0;
+                            box-sizing: border-box;
+                            color: #FFF;
+                            display: flex;
+                            height: 20px;
+                            justify-content: center;
+                            margin: 0;
+                            margin-left: 20px;
+                            padding: 0 4px;
+                            position: absolute;
+                            width: 34px;
+                            z-index: 2;
+
+                            .num{
+                                box-sizing: border-box;
+                                color: #FFF;
+                                display: block;
+                                font-weight: 700;
+                                height: 26.0375px;
+                                line-height: 26.04px;
+                                margin: 0;
+                                padding: 0;
+                                width: 18.825px;
+                            }
+                        }
+                    }
+                }
+                
+                .more-products{
+                    align-items: center;
+                    background-color: #FFF;
+                    border-radius: 9999px;
+                    box-sizing: border-box;
+                    color: rgb(57, 174, 0);
+                    display: flex;
+                    justify-content: center;
+                    line-height: 26.04px;
+                    padding: 12px 20px;
+                    width: 144.137px;
+
+                    span{
+                        box-sizing: border-box;
+                        color: rgb(57, 174, 0);
+                        display: block;
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 26.04px;
+                        padding: 0;
+                        white-space: nowrap;
+                        width: 76.1375px;
+                    }
+
+                    .flash{
+                        box-sizing: border-box;
+                        color: rgb(57, 174, 0);
+                        display: flex;
+                        line-height: 26.04px;
+                        margin: 0 8px 0 0;
+                        width: 20px;
+                        fill: rgb(57, 174, 0);
+                        font-weight: 700;
+                        height: 20px;
+                        line-height: 26.04px;
+                        overflow: hidden;
+                        width: 20px;
+                    }
                 }
             }
         }

@@ -1,0 +1,38 @@
+.middle-banner-main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 257.6px;
+    margin-top: 24px;
+    justify-content: space-between;
+
+    a{
+        display: block;
+        height: 257.6px;
+        position: relative;
+        width: 644px;
+
+        .image{
+            border-radius: 16px;
+            display: block;
+            height: 257.6px;
+
+            picture{
+                display: inline;
+                height: auto;
+                width: auto;
+
+                img{
+                    border-radius: 16px;
+                    display: block;
+                    height: 257.6px;
+                    object-fit: cover;
+                    opacity: 1;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 0;
+                    width: 644px;
+                }
+            }
+        }
+    }
+}

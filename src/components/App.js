@@ -4,11 +4,13 @@ import top_header_banner from '../images/top-header-banner.jpg'
 import Navigation from './Navigation'
 import Slider from './Slider'
 import AmazingSuggestion from './AmazingSuggestion'
+import Body from './Body'
 
 export default function App() {
     return (
         <div>
             <main>
+                {/* header */}
                 <img
                     src={top_header_banner}
                     alt=""
@@ -18,7 +20,11 @@ export default function App() {
                 <Navigation />
                 <Slider/>
                 <AmazingSuggestion/>
-                <div className="container">s</div>
+
+                {/* body */}
+                <div className="container">
+                    <Body/>
+                </div>
             </main>
         </div>
     )

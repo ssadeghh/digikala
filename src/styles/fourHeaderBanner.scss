@@ -1,0 +1,59 @@
+.Banner{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    height: 235.5px;
+    margin-top: 24px;
+    padding: 0;
+    justify-content: space-between;
+
+    a{
+        display: block;
+        height: 235.5px;
+        position: relative;
+        width: 314px;
+
+        .image{
+            border-radius: 16px;
+            display: block;
+            height: 235.5px;
+            width: 314px;
+
+            picture{
+                display: inline;
+                height: auto;
+                width: auto;
+
+                img{
+                    box-sizing: border-box;
+                    border-radius: 16px;
+                    box-sizing: border-box;
+                    display: block;
+                    height: 235.5px;
+                    width: 314px;
+                    opacity: 1;
+                    overflow: hidden;
+                    overflow-clip-margin: content-box;
+                    position: absolute;
+                    top: 0;
+                    transition-delay: 0s;
+                    transition-duration: 0.2s;
+                    transition-property: opacity;
+
+                    &::after{
+                        background-attachment: scroll;
+                        background-color: #fff;
+                        background-position: 50%;
+                        background-size: contain;
+                        bottom: 0px;
+                        display: block;
+                        height: 100%;
+                        text-align: center;
+                        top: 0px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

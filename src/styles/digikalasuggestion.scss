@@ -1,0 +1,187 @@
+.digikala-suggestion-main {
+    border-radius: 16px;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 24px;
+    position: relative;
+
+    .digikala-suggestion-content {
+        box-sizing: border-box;
+        display: block;
+        height: 76.1px;
+        margin: 0;
+        padding: 16px 0;
+        text-align: center;
+
+        h2 {
+            box-sizing: border-box;
+            display: block;
+            line-height: 44.1px;
+            text-align: center;
+            color: rgb(8, 10, 56);
+            font-size: 21px;
+            font-weight: 500;
+        }
+    }
+
+    .digikala-suggestion-table {
+        border-color: rgb(224, 224, 230);
+        border-radius: 16px;
+        border-style: solid;
+        border-width: 0.8px;
+        border-image-width: 1;
+        box-sizing: border-box;
+        display: block;
+        height: 310.6px;
+        margin-top: 8px;
+
+        .main-digikala-suggestion-table {
+            box-sizing: border-box;
+            display: block;
+            height: 309px;
+            overflow: hidden;
+            position: relative;
+            touch-action: pan-y;
+            z-index: 1;
+
+            .swiper-wrapper {
+                box-sizing: border-box;
+                direction: rtl;
+                display: flex;
+                height: 309px;
+                list-style-position: outside;
+                position: relative;
+                transform: matrix(1, 0, 0, 1, 0, 0);
+                transition-property: transform;
+                transition-timing-function: ease-out;
+                width: 1302.4px;
+                z-index: 1;
+
+                .swiper-wrapper-list-horizontal {
+                    box-sizing: border-box;
+                    display: block;
+                    flex-grow: 1;
+                    flex-shrink: 0;
+                    height: 309px;
+                    min-width: 180px;
+                    position: relative;
+                    width: 185.375px;
+
+                    .inner-swiper-wrapper-list-horizontal {
+                        display: block;
+                        flex-grow: 1;
+                        flex-shrink: 0;
+                        min-width: 180px;
+
+                        a {
+                            align-items: normal;
+                            box-sizing: border-box;
+                            display: block;
+                            height: 154.1px;
+                            justify-content: normal;
+                            list-style: none;
+                            margin: 0;
+                            text-decoration: none;
+                            padding: 0;
+
+                            .each-product-digi-category {
+                                align-items: center;
+                                box-sizing: border-box;
+                                display: flex;
+                                flex-direction: column;
+                                padding: 16px 4px;
+                                position: relative;
+                                width: 185.375px;
+
+                                .inner-each-product-digi-category {
+                                    align-items: center;
+                                    background-color: rgb(241, 242, 244);
+                                    border-radius: 50%;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    height: 84px;
+                                    justify-content: center;
+                                    overflow: hidden;
+                                    padding: 12px;
+                                    position: relative;
+                                    width: 84px;
+
+                                    .image-product-style {
+                                        box-sizing: border-box;
+                                        display: block;
+                                        height: 60px;
+                                        position: relative;
+                                        width: 60px;
+
+                                        &::before {
+                                            background-color: rgba(0, 0, 0, 0.05);
+                                            display: block;
+                                            height: 60px;
+                                            left: 0;
+                                            position: absolute;
+                                            top: 0;
+                                            width: 60px;
+                                            z-index: 1;
+                                        }
+
+                                        img {
+                                            aspect-ratio: auto 60/60;
+                                            box-sizing: border-box;
+                                            display: inline-block;
+                                            height: 60px;
+                                            margin: 0;
+                                            object-fit: contain;
+                                            opacity: 1;
+                                            overflow-clip-margin: content-box;
+                                            overflow: hidden;
+                                            padding: 0;
+                                            position: relative;
+                                            width: 60px;
+
+                                            &::after {
+                                                background-attachment: scroll;
+                                                background-clip: border-box;
+                                                background-color: rgb(255, 255, 255);
+                                                background-origin: padding-box;
+                                                background-position: 50%;
+                                                background-repeat: no-repeat;
+                                                background-size: contain;
+                                                display: block;
+                                                height: 100%;
+                                                left: 0;
+                                                position: absolute;
+                                                right: 0;
+                                                text-align: center;
+                                                top: 0;
+                                                width: 100%;
+                                            }
+                                        }
+
+
+                                        h4 {
+                                            box-sizing: border-box;
+                                            color: rgb(8, 10, 56);
+                                            display: -webkit-box;
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                            line-height: 30.1px;
+                                            margin-block-start: 8px;
+                                            margin-top: 8px;
+                                            outline-color: rgb(8, 10, 56);
+                                            overflow: hidden;
+                                            padding: 0;
+                                            text-align: center;
+                                            width: 141.9px;
+                                            -webkit-box-orient: vertical;
+                                            -webkit-line-clamp: 1;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
