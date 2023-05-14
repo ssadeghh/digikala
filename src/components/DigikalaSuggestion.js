@@ -8,7 +8,7 @@ export default function DigikalaSuggestion() {
     return (
         <div className="digikala-suggestion-main">
             <div className="digikala-suggestion-content">
-                <h2>پیشنهاد دیجی‌کالا</h2>
+                <h2 className='digikala-suggestion-content-h2'>پیشنهاد دیجی‌کالا</h2>
             </div>
             <div className="digikala-suggestion-table">
                 <div className="main-digikala-suggestion-table">
@@ -23,7 +23,7 @@ export default function DigikalaSuggestion() {
                                                     <img src={product.image1} alt="" />
                                                 </div>
                                             </div>
-                                            <h4></h4>
+                                            <h4 className='each-product-digi-category-h4'>{product.name1}</h4>
                                         </div>
                                     </a>
                                     <a href="">
@@ -33,7 +33,7 @@ export default function DigikalaSuggestion() {
                                                     <img src={product.image2} alt="" />
                                                 </div>
                                             </div>
-                                            <h4></h4>
+                                            <h4 className='each-product-digi-category-h4'>{product.name2}</h4>
                                         </div>
                                     </a>
                                 </div>
